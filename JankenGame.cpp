@@ -62,8 +62,8 @@ string JankenGame::GetRandomChose()
 	}
 }
 bool JankenGame::isPlayerWin(const std::string& playerChoice, const std::string& computerChoice) {
-	// ここでの判定ロジックを実装
-	//下で数えて＋判定してるからいらない
+	// ここでの判定ロジックを実装と思ったけど...
+	//下で数えて && 判定してるからいらない
 	return 0;
 }
 void JankenGame::displayResult() {
